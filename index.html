@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hifdzullah Matali Profile</title>
+
+  <!-- External CSS Files -->
+  <link href="assets/externalfile/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/externalfile/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+
+  <!-- TMain CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+  <script src="index.js"></script>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("FYaR-pZeyM7ArQFxv");
+    })();
+  </script>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <style>
+    nav.page-navigation .current a {
+      background-color: #d2d2d2;
+      color: #fff;
+    }
+
+    .contact-label {
+      font-family: 'Arial', Helvetica, sans-serif;
+      color: #000;
+    }
+
+    .contact .info {
+
+      padding: 30px;
+      background: #fff;
+      width: 5%;
+      box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+    }
+
+
+    .contact .info h4 {
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 5px;
+      color: #37517e;
+    }
+
+    .contact .info p {
+      margin-bottom: 20px;
+      font-size: 18px;
+      font-family: 'Arial', Helvetica, sans-serif;
+      color: #000000;
+    }
+
+    .contact .info .email p {
+      padding-top: 5px;
+    }
+
+    .contact .email-form {
+      width: 100%;
+      padding: 30px;
+      background-color: #fff;
+
+    }
+
+    .contact .email-form .form-group {
+      padding-bottom: 8px;
+    }
+
+    .contact .email-form label {
+      padding-bottom: 8px;
+    }
+
+    .contact .email-form input,
+    .contact .email-form textarea {
+      border-radius: 0;
+      box-shadow: none;
+      font-size: 14px;
+      border-radius: 4px;
+    }
+
+    .contact .email-form input:focus,
+    .contact .email-form textarea:focus {
+      border-color: #d3d3d3;
+    }
+
+    .contact .email-form input {
+      height: 44px;
+    }
+
+    .contact .email-form textarea {
+      padding: 10px 12px;
+    }
+
+    .contact .email-form button[type=submit] {
+      background: #000;
+      border: 0;
+      padding: 12px 34px;
+      color: #fff;
+      transition: 0.4s;
+    }
+
+    .contact .email-form button[type=submit]:hover {
+      background: #d3d3d3;
+      color: #000;
+    }
+  </style>
+
+</head>
+
+
+<body>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $("li").click(function () {
+        console.log("Clicked");
+        var myClass = this.className;
+        console.log(myClass);
+        if (myClass == "About") {
+          $(".About").css("background-color", "#31a9e1");
+          $(".Skills").css("background-color", "");
+          $(".Exper").css("background-color", "");
+          $(".Cert").css("background-color", "");
+          $(".Port").css("background-color", "");
+          $(".Contact").css("background-color", "");
+        } else if (myClass == "Skills") {
+          $(".Skills").css("background-color", "#31a9e1");
+          $(".About").css("background-color", "");
+          $(".Exper").css("background-color", "");
+          $(".Cert").css("background-color", "");
+          $(".Port").css("background-color", "");
+          $(".Contact").css("background-color", "");
+        } else if (myClass == "Exper") {
+          $(".Exper").css("background-color", "#31a9e1");
+          $(".Skills").css("background-color", "");
+          $(".About").css("background-color", "");
+          $(".Cert").css("background-color", "");
+          $(".Port").css("background-color", "");
+          $(".Contact").css("background-color", "");
+        } else if (myClass == "Cert") {
+          $(".Cert").css("background-color", "#31a9e1");
+          $(".Skills").css("background-color", "");
+          $(".About").css("background-color", "");
+          $(".Exper").css("background-color", "");
+          $(".Port").css("background-color", "");
+          $(".Contact").css("background-color", "");
+        } else if (myClass == "Port") {
+          $(".Port").css("background-color", "#31a9e1");
+          $(".Skills").css("background-color", "");
+          $(".About").css("background-color", "");
+          $(".Exper").css("background-color", "");
+          $(".Cert").css("background-color", "");
+          $(".Contact").css("background-color", "");
+        } else if (myClass == "Contact") {
+          $(".Contact").css("background-color", "#31a9e1");
+          $(".Skills").css("background-color", "");
+          $(".About").css("background-color", "");
+          $(".Exper").css("background-color", "");
+          $(".Cert").css("background-color", "");
+          $(".Port").css("background-color", "");
+        }
+      })
+    })
+  </script>
+
+
+
+  <!--Start: Nav Header -->
+  <header id="header" class="fixed-top pagenav" style="background: #848485;">
+    <div class="container d-flex align-items-center">
+      <h1 class="logo me-auto"></h1>
+      <nav id="navbar" class="navbar">
+        <ul id="ulid">
+          <li class="About"><a class="nav-link scrollto" href="#about">About</a></li>
+          <li class="Skills"><a class="nav-link scrollto" href="#skills">Skills</a></li>
+          <li class="Exper"><a class="nav-link scrollto" href="#work-experience">Work Experience</a></li>
+          <li class="Cert"><a class="nav-link scrollto" href="#certificate">Certificate</a></li>
+          <li class="Port"><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
+          <li class="Contact"><a class="nav-link scrollto" href="#contact-me">Contact Me</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle" style="font-size: 19px; text-align: center; line-height: 15px;">Sorry, this webpage does not support responsive design</i>
+        
+      </nav>
+      <!-- End: navbar -->
+    </div>
+  </header>
+  <!-- End: Nav header -->
+
+  <!-- ====== Start: Section (Banner)====== -->
+  <section id="banner" class="d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <h1 style="text-align:center">Hello! I am Mohammad Hifdzullah Matali</h1>
+        <h2 style="text-align:center">To be a Full Stack Developer</h2>
+      </div>
+    </div>
+  </section>
+  <!-- End: Section (Banner) -->
+
+  <!-- ======Start: Main =======-->
+  <main id="main">
+
+    <!-- ======= START: Border ======= -->
+    <div class="border horizontal-border-bg">
+    </div>
+    <!-- END: Border -->
+
+    <!-- ======= START: About Myself Section ======= -->
+    <section id="about" class="about" style="background-color: rgb(248, 247, 247)">
+      <div class="container">
+        <div class="section-title">
+          <h2>About</h2>
+        </div>
+        <div class=" row content">
+          <!-- <div class="col-lg-6 d-flex flex-column justify-content-center">
+            <img src="./assets/img/Img.JPG" style="width:350px; border-radius: 12px;">
+          </div> -->
+          <div class="col-lg-15">
+            <p class="p-about-me">
+              My name is Haji Mohammad Hifdzullah Matali from Bandar Seri Begawan, Brunei Darussalam. I graduated from
+              the
+              University of Technology Brunei in Msc (by Coursework) in Computing and Information Systems in 2022, additionally, I
+              earned my
+              Bachelor of Degree in Computer Science with Honours from the University of Chester, UK in 2020.
+              I enjoyed contributing
+              new ideas, solving
+              research problems by applying my programming skills which I had developed an enhanced graphical user
+              authentication that is less on cognitive burden for my final project in 2022 and android
+              application for freelancer and small business advertising, and
+              private sector job posting for my final year project in 2020.
+              All of my projects majority involved using PHP, Java, JavaScript, HTML, CSS and SQL.
+            </p>
+            <p class="p-about-me">
+              I am currently upskilling to be a full-stack developer trained in Coding. bn under AITI, where I have
+              learn new skills which include
+              JavaScript, Nodejs, React, React Native and additionally, upskilling my skills in HTML, CSS and SQL.
+            </p>
+
+            <p class="p-about-me">
+              I am an inquisitive person who likes to seek out new knowledge, a high-focus person and a person who likes
+              to
+              explore new ideas and put solutions for the benefit of communities and businesses. Outside of my
+              interest in the programming field, I am
+              also interested in the field of graphical user authentication and artificial intelligence in the field of
+              computer vision.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END: About Myself Section  -->
+
+
+    <!-- ======= START: Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container" style="display: flex;">
+        <div class="row">
+          <div class="section-title">
+            <h2>Technical Skills</h2>
+            <p style="color:black">(My proficiency in each skill)</p>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-15 ">
+            <div class="skills-content">
+              <span class="skill"><strong>HTML</strong> (Used in most of my web development project) <i class="val" style="float:right">45%</i></span>
+              <div class="progress">
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" style="width: 45%;">
+                  </div>
+                </div>
+              </div>
+              <span class="skill"><strong>CSS</strong> (Used in most of my web development project) <i class="val" style="float:right">40%</i></span>
+              <div class="progress">
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" style="width: 40%;">
+                  </div>
+                </div>
+              </div>
+              <span class="skill"><strong>SQL</strong> (Used in most of my web development project)<i class="val" style="float:right">25%</i></span>
+              <div class="progress">
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" style="width: 25%;">
+                  </div>
+                </div>
+              </div>
+              <span class="skill"><strong>PHP</strong> (Langugae used for my web development project)<i class="val" style="float:right">25%</i></span>
+              <div class="progress">
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" style="width: 25%;">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-15 content">
+            <div class="skills-content">
+              <span class="skill"><strong>Java</strong> (Used in most of my android mobile based project)<i class="val" style="float:right">25%</i></span>
+              <div class="progress">
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" style="width: 25%;">
+                  </div>
+                </div>
+              </div>
+              <span class="skill"><strong>JavaScript</strong>  (A new skill I am learning) <i class="val" style="float:right">15s%</i></span>
+              <div class="progress">
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" style="width: 15%;">
+                  </div>
+                </div>
+              </div>
+              <span class="skill"><strong>Node js</strong> (A new skill I am learning) <i class="val" style="float:right">10%</i></span>
+              <div class="progress">
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" style="width: 10%;">
+                  </div>
+                </div>
+              </div>
+              <span class="skill"><strong>Dart</strong> (A new skill I am learning) <i class="val" style="float:right">10%</i></span>
+              <div class="progress">
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" style="width: 10%;">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======= END: Skills Section ======= -->
+
+    <!-- ======= START: Work experience Section ======= -->
+    <section id="work-experience" class="services" style="background-color: rgb(248, 247, 247)">
+      <div class="container">
+        <div class="section-title">
+          <h2>Work Attachment</h2>
+          <h3 style="color:#000000">Ministry of Religious Affairs, Brunei Darussalam</h3>
+          <p> Year 2016 (3 months)</p>
+        </div>
+        <div class="div-work-experience-content">
+          <p style="float: left;"></p>
+          <br>
+          <ul>
+            <li class="li-work-experience">Manage to perform the duty to conduct content audit and record the identify
+              problems with attention to detail</li>
+            <li class="li-work-experience">Manage to conduct content audit of all MORA websites and intranet website
+            </li> <!--low-quality content, duplicate content,-->
+            <li class="li-work-experience">Manage to assist the IT department in maintaining and performing updates on
+              MORA E-Islam Information Kiosk </li>
+          </ul>
+        </div>
+
+      </div>
+
+      </div>
+    </section>
+    <!-- ======= END: Qualification Section ====== -->
+
+
+    <!-- =======START: Certificate Section ======= -->
+    <section id="certificate" class="certification section-bg">
+      <div class="container-fluid">
+        <div class="section-title">
+          <h2>Certificate</h2>
+          <div class="row">
+            <div class="col-lg-7 justify-content-center" style="margin:auto">
+              <div class="content">
+                <h3 style="color:black">Microsoft Azure Fundamentals (AZ900)</h3>
+                <p class="p-certificate">
+                  Have the knowledge in cloud services, cloud concepts and skill in Microsoft Azure such as the
+                  services,
+                  workloads, security and privacy offered in Microsoft Azure for cloud based solution.
+                </p>
+                <p class="mobile-p">(Slide the image to view)</p>
+              </div>
+            </div>
+            <div>
+              <div class="scroll-certi-img">
+                <div>
+                  <img src="assets/img/Az900.png" alt="Az900 Certificate" class="img"
+                    style=" margin-top: 12px; border:1px solid black">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- END: Certificate Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio" style="background-color: rgb(248, 247, 247)">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+        </div>
+        <!--====START: Portfolio No 1====-->
+        <div class="row portfolio-container">
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-img"><img src="assets/img/GOTP.png" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Web Application (2022)</h4>
+              <p>Graphical User Authentication</p>
+              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Desktop Application"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><button
+                  class="btn-portfolio">More Details</button></i></a>
+            </div>
+          </div>
+          <!--====END: Portfolio No 1====-->
+          <!--====START: Portfolio No 2====-->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/Jobbussinesss.png" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Android App (2019)</h4>
+              <p>JobBussiness</p>
+              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details-2.html" class="details-link" title="More Details"><button
+                  class="btn-portfolio">More Details</button></i></a>
+            </div>
+          </div>
+          <!--====END: Portfolio No 2====-->
+
+          <!--====START: Portfolio No 3====-->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/RescueMe.png" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Web application (2023)</h4>
+              <p>Rescue Me (Personal Project)</p>
+              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details-3.html" class="details-link" title="More Details">
+                <button class="btn-portfolio">More Details</button></i></a>
+            </div>
+          </div>
+          <!--====END: Portfolio No 3====-->
+        </div>
+      </div>
+    </section>
+    <!-- END: Portfolio Section -->
+
+  </main>
+  <!-- End #main -->
+  <!-- ======= Contact Form Section ======= -->
+
+  <section id="contact-me" class="contact section-bg">
+    <div class="row content">
+      <div class="section-title">
+        <h2>Contact</h2>
+      </div>
+      <div class="col-lg-6 pt-4 pt-lg-15" style="margin:auto; padding: 60px;">
+        <div class="info" style="width: 500px;">
+          <div class="phone">
+            <h4>Contact Number</h4>
+            <p>8148496</p>
+          </div>
+          <div class="email">
+            <h4>Email:</h4>
+            <p><a href="mailto: mohdhifdzullah.matali@gmail.com">mohdhifdzullah.matali@gmail.com</a></p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-6 pt-4 pt-lg-15" style="margin:auto; padding: 60px;">
+        <div class="email-form" style=" width: 100%; padding: 30px; background-color: #fff;">
+          <div class="row">
+            <div class="form-group" style=" padding-bottom: 8px;">
+              <label class="contact-label" for="name">Name</label>
+              <input type="text" name="name" class="form-control" id="name" required placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label class="contact-label" for="name">Email</label>
+              <input type="email" class="form-control" name="email" id="email" required
+                placeholder="Enter your emaill address">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="contact-label" for="name">Subject</label>
+            <input type="text" class="form-control" name="subject" id="subject" required placeholder="Enter subject">
+          </div>
+          <div class="form-group">
+            <label class="contact-label" for="name">Message</label>
+            <textarea class="form-control" name="message" id="message" rows="10" required
+              placeholder="Enter your message"></textarea>
+          </div>
+          <div class="text-center">
+            <button class="btn-send" onclick="sendemail()">Send Message</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+  </section>
+
+
+  <!-- <div class="col-lg-6">
+    <div class="container">    
+          <div class="info">
+            <div class="phone">
+              <h4>Contact Number</h4>
+              <p>8148496</p>
+            </div>
+            <div class="email">
+              <h4>Email:</h4>
+              <p><a href="mailto: mohdhifdzullah.matali@gmail.com">mohdhifdzullah.matali@gmail.com</a></p>
+            </div>
+          </div>
+        </div>
+  </div> -->
+
+  <script type="text/javascript">
+    window.addEventListener("offline", (event) => {
+      const statusDisplay = document.getElementById("status");
+      statusDisplay.textContent = "Please check your internet connection";
+    });
+  </script>
+  <!-- End Contact Form Section -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <span>Hifdzullah Matali 2023 <br>Last Updated: 15 March 2023</span>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Bootstrap Files -->
+  <script src="assets/externalfile/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
